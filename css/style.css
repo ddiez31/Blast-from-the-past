@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/nixie-tube.jpg');
+    background-image: url('../images/nixie-tube.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
