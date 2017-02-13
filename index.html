@@ -7,52 +7,69 @@
     <title>Nombre mystère</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
-
-    <!-- Latest compiled and minified JavaScript -->
-
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-
-    <!-- Font-Awesome CSS -->
-    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
-
-    <!-- Bootswatch theme CSS -->
-    <!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT" crossorigin="anonymous">-->
-
-    <!-- Foundation CSS -->
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css">-->
-
-    <!-- Semantic-ui CSS -->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">-->
-
-    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- CSS Reset -->
     <link rel="stylesheet" type="text/css" href="css/knacss.css">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Monofett|Bungee+Shade|Faster+One" rel="stylesheet">
 </head>
-
 
 <body>
 
     <header>
         <h1>Nombre Mystère</h1>
+        <h2>Un seul chiffre!!</h2>
+        <h2>3 essais!!</h2>
+        <h3>A vous de jouer</h3>
     </header>
-    <div class="newGame">
+
+
+
+    <div class="boutons">
         <button type="submit" id="new" class="btn btn-danger">New Game</button>
+        <button type="submit" id="point" class="btn btn-success">Points</button>
+        <button type="submit" id="regle" class="btn btn-primary">Règles</button>
     </div>
 
-    <div class="game">
-        <input type="text" class="inpUser" placeholder="Entrer un chiffre" />
-        <button type="submit" id="send" class="btn btn-primary">Send</button>
-    </div>
+    <div class="result">
 
-    <div class="result"></div>
+
+        <div class="bulle-global">
+            <div class="bulle" value="0">
+                <p>0</p>
+            </div>
+            <div class="bulle" value="1">
+                <p>1</p>
+            </div>
+            <div class="bulle" value="2">
+                <p>2</p>
+            </div>
+        </div>
+        <div class="bulle-global">
+            <div class="bulle" value="3">
+                <p>3</p>
+            </div>
+            <div class="bulle" value="4">
+                <p>4</p>
+            </div>
+            <div class="bulle" value="5">
+                <p>5</p>
+            </div>
+            <div class="bulle" value="6">
+                <p>6</p>
+            </div>
+        </div>
+        <div class="bulle-global">
+            <div class="bulle" value="7">
+                <p>7</p>
+            </div>
+            <div class="bulle" value="8">
+                <p>8</p>
+            </div>
+            <div class="bulle" value="9">
+                <p>9</p>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -64,7 +81,7 @@
 
 </body>
 <!-- JQuery -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="js/index.js"></script>
+<script src=" https://code.jquery.com/jquery-3.1.1.min.js "></script>
+<script src="js/index.js "></script>
 
 </html>
